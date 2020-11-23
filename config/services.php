@@ -30,4 +30,9 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
+    'codigofacilito' => [
+        'client_id' => env('CODIGO__FACILITO_CLIENT'),
+        'client_secret' => env('CODIGO__FACILITO_SECRET'),
+        'redirect' => env('CODIGO_FACILITO_CALLBACK')
+    ]
 ];
